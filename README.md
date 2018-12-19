@@ -154,10 +154,10 @@ It's possible to set the locale so that weekday column names are automatically s
 
 ```gradle
 allprojects {
-		repositories {
+	repositories {
 			...
-			maven { url 'https://jitpack.io' }
-		}
+		maven { url 'https://jitpack.io' }
+	}
 }
 
 dependencies {
