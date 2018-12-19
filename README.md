@@ -153,8 +153,15 @@ It's possible to set the locale so that weekday column names are automatically s
 <img src="https://github.com/SundeepK/CompactCalendarView/blob/master/images/chinese-locale-daynames.png" width="400">
 
 ```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+
 dependencies {
-    compile 'com.github.sundeepk:compact-calendar-view:3.0.0'
+	  implementation 'com.github.DavidBarbaran:CompactCalendarView:1.0'
 }
 ```
 
